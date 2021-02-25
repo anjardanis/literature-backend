@@ -3,4 +3,4 @@ WORKDIR /usr/app
 COPY . .
 RUN npm install
 EXPOSE 5000
-CMD ["npm","start","NODE_ENV=production"]
+CMD ["NODE_ENV=production","npm","start"]

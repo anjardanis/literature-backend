@@ -18,7 +18,6 @@
     "password": "anjar",
     "database": "literature",
     "host": "10.1.1.13",
-    "host": "10.1.1.10",
     "dialect": "postgres"
   }
 }
