@@ -2,5 +2,7 @@ FROM node:10
 WORKDIR /usr/app
 COPY . .
 RUN npm install
+RUN npm install nodemon
 EXPOSE 5000
-CMD ["NODE_ENV=production","npm","start"]
+ENV NODE_ENV production
+CMD ["npm","start"]
