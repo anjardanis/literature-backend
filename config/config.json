@@ -14,8 +14,11 @@
     "dialect": "mysql"
   },
   "production": {
-    "use_env_variable": "DATABASE_URL",
-    "dialect": "postgres",
-    "protocol": "postgres"
+    "username": "backend",
+    "password": "anjar",
+    "database": "literature",
+    "host": "10.1.1.13",
+    "host": "10.1.1.10",
+    "dialect": "postgres"
   }
 }
